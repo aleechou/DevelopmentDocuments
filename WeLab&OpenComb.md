@@ -18,7 +18,7 @@
 
 ## OpenComb扩展和git库 说明
 
-### CRM（客户关系管理）扩展
+### 1. CRM（客户关系管理）扩展
 repo: https://github.com/aleechou/ocCRM
 微信的 关注用户/注册用户 使用 CRM扩展，便于以后实现微信渠道以外的营销方式，例如：群发email, sms短信, weibo 甚么的。
 也就是说，微信的用户 实际上是读写 CRM扩展 的数据表；在写入时 增加微信所需的扩展。
@@ -52,7 +52,7 @@ tagname, uid (唯一)
 createTime
 
 
-### 微信扩展
+### 2. 微信扩展
 repo: https://github.com/aleechou/ocWeChat
 微信的API授权，用户和用户二次注册。也包括WeLAB的 layout 。
 
@@ -83,7 +83,7 @@ uid
 hitKeyword
 
 
-### CMS扩展
+### 3. CMS扩展
 repo: https://github.com/aleechou/ocCMS
 内容管理部分。
 
