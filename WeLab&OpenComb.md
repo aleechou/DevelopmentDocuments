@@ -5,10 +5,12 @@
 * 扩展名和扩展目录一致，且只能使用小写字母，_,- ，这个规则和 npm 兼容
 
 * 数据表(collection) 的名称规范：  <扩展名>/<数据表名>
-例如：用户数据表的完成名称是 "ocframework/users"
-其中 "ocframework“ 是扩展名， users 是属于这个扩展的数据表名称
 
-使用 helper.db ，可以省略 "<扩展名>/" 部分，只是用数据表名。 helper.db 根据源代码文件所在的扩展自动补充 扩展名。
+    例如：用户数据表的完成名称是 "ocframework/users"
+
+    其中 "ocframework“ 是扩展名， users 是属于这个扩展的数据表名称
+
+    使用 helper.db ，可以省略 "<扩展名>/" 部分，只是用数据表名。 helper.db 根据源代码文件所在的扩展自动补充 扩展名。
 
 
 
