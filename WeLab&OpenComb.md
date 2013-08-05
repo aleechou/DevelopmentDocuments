@@ -36,7 +36,9 @@ repo: https://github.com/aleechou/ocCRM
 * gender        性别
 * birthday      生日(年龄)
 * city             城市
+
 ---(以上字段显示在 list 页)
+
 * priovince     省份
 * email          电子邮件
 * mobile        移动电话
